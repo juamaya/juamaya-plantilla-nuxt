@@ -6,7 +6,7 @@ const baseURL =
       process?: { env?: { NODE_ENV?: string } }
     }
   ).process?.env?.NODE_ENV === 'production'
-    ? '/juamaya-logistica/'
+    ? '/juamaya-plantilla-nuxt/'
     : '/'
 
 export default defineNuxtConfig({
