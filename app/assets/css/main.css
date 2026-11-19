@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+html{
+    background: #c1bdbd;
+}
+
+@layer components {
+  h1 {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+    @apply font-extrabold text-center;
+    @apply leading-tight wrap-break-word;
+    @apply px-3 mb-6 sm:mb-8;
+  }
+}
